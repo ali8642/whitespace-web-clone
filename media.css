@@ -1,0 +1,131 @@
+@media (min-width: 320px) and (max-width: 600px) {
+
+    body{
+        width: 100%;
+    }
+
+    .main {
+        width: 100%;
+    }
+
+    .header {
+        width: 80%;
+    }
+
+    section {
+        width: 90%;
+        display: flex;
+        flex-flow: wrap column;
+    }
+
+    .hero-content {
+        width: 80%;
+    }
+
+    .hero-img img {
+        width: 80%;
+    }
+
+    .project {
+        flex-flow: column-reverse wrap;
+        width: 80%;
+    }
+
+    .pro-content {
+        width: 80%;
+    }
+
+    .network {
+        width: 80%;
+        flex-flow: column wrap;
+    }
+    .net-content {
+        width: 80%;
+    }
+
+    .ext {
+        flex-direction: column-reverse;
+    }
+
+    .ext-content {
+        width: 80%;
+    }
+
+    .ext-img img {
+        width: 80%;
+    }
+
+    .custom-content {
+        width: 80%;
+    }
+
+    .custom-img img {
+        width: 80%;
+    }
+
+    .plans {
+        gap: 40px;
+    }
+
+    .work {
+        height: auto;
+    }
+
+    .work-content {
+        width: 80%;
+    }
+
+    .data-content {
+        width: 80%;
+    }
+
+    .data-img img {
+        width: 80%;
+    }
+
+    .sel-client {
+        width: 80%;
+    }
+
+    .hamburger {
+        width: 30px;
+        height: 22px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        cursor: pointer;
+    }
+
+    .hamburger span {
+        display: block;
+        height: 4px;
+        background-color: #fff;
+        border-radius: 2px;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .nav-btns {
+        display: none;
+    }
+
+    .sponsors-logo {
+        flex-wrap: wrap;
+    }
+
+    .clients {
+        width: 80%;
+    }
+
+    .clients-box {
+        width: 80%;
+        flex-flow: column wrap;
+    }
+
+    .foot-about {
+        flex-wrap: wrap;
+        gap: 32px;
+    }
+}

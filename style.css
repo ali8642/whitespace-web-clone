@@ -19,6 +19,10 @@
     justify-content: space-between;
 }
 
+.hamburger {
+    display: hidden;
+}
+
 .nav-logo {
     font-size: 32px;
     font-weight: bolder;
@@ -122,4 +126,423 @@ button {
 
 .pro-img img {
     width: 480px;
+}
+
+/* class network */
+.network {
+    padding: 32px;
+    display: flex;
+    gap: 40px;
+}
+
+.net-content {
+    padding: 40px;
+    width: 650px;
+    align-content: center;
+}
+
+.net-content h1 {
+    font-size: 48px;
+}
+
+.net-content h1 span {
+    background-image: url('./assets/yellow\ undermark.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.net-content button {
+    background-color: #509bf5;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-size: 16px;
+    box-shadow: 4px;
+    opacity: 0.8;
+}
+
+.net-img img {
+    width: 480px;
+}
+
+/* extension section */
+.ext {
+    background-color: #00376e;
+    color: white;
+    padding: 32px;
+    display: flex;
+    gap: 40px;
+}
+
+.ext-content {
+    padding: 40px;
+    width: 650px;
+    align-content: center;
+}
+
+.ext-content h1 {
+    font-size: 48px;
+}
+
+.ext-content h1 span {
+    background-image: url('./assets/yellow\ undermark.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.ext-content button {
+    background-color: #509bf5;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-size: 16px;
+    box-shadow: 4px;
+    opacity: 0.8;
+}
+
+.ext-img img {
+    width: 650px;
+}
+
+/* customisation section */
+.custom {
+    padding: 32px;
+    display: flex;
+    gap: 40px;
+}
+
+.custom-content {
+    padding: 40px;
+    width: 650px;
+    align-content: center;
+}
+
+.custom-content h1 {
+    font-size: 48px;
+}
+
+.custom-content h1 span {
+    background-image: url('./assets/yellow\ undermark.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.custom-content button {
+    background-color: #509bf5;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-size: 16px;
+    box-shadow: 4px;
+    opacity: 0.8;
+}
+
+.custom-img img {
+    width: 600px;
+}
+
+/* payment plan section */
+.plans {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px;
+}
+
+.plans h1 {
+    font-size: 32px;
+}
+
+.plan {
+    width: 240px;
+    padding: 40px;
+    border: 1px solid goldenrod;
+    border-radius: 12px;
+}
+
+.plan ul li::marker {
+    /* list-style: none; */
+    content: '\2714';
+}
+
+.plan button {
+    padding: 12px 24px;
+    border-radius: 12px;
+    border: 1px solid goldenrod;
+}
+
+.sel-plan {
+    width: 300px;
+    padding: 80px 60px;
+    background-color: #00376e;
+    color: white;
+    border-radius: 12px;
+}
+
+.sel-plan h1 {
+    font-size: 46px;
+    color: goldenrod;
+}
+
+.sel-plan ul li::marker {
+    /* list-style: none; */
+    content: '\2714';
+    color: goldenrod;
+}
+
+.sel-plan button {
+    padding: 12px 24px;
+    border-radius: 12px;
+    background-color: #509bf5;
+    color: white;
+}
+
+/* Remote work section */
+.work {
+    background-color: #00376e;
+    height: 350px;
+    color: white;
+    padding: 32px;
+    margin: 40px 0px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 20px;
+}
+
+.work-content {
+    padding: 40px;
+    width: 800px;
+    align-content: center;
+}
+
+.work-content h1 {
+    font-size: 48px;
+}
+
+.work-content h1 span {
+    background-image: url('./assets/sky\ blue\ undermark.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.work-content button {
+    background-color: #509bf5;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-size: 16px;
+    box-shadow: 4px;
+    opacity: 0.8;
+}
+
+.work-img img {
+    width: 160px;
+}
+
+/* Data section */
+.data {
+    padding: 32px;
+    display: flex;
+    gap: 40px;
+}
+
+.data-content {
+    padding: 40px;
+    width: 650px;
+    align-content: center;
+}
+
+.data-content h1 {
+    font-size: 48px;
+}
+
+.data-content h1 span {
+    background-image: url('./assets/yellow\ undermark.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.data-content button {
+    background-color: #509bf5;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-size: 16px;
+    box-shadow: 4px;
+    opacity: 0.8;
+}
+
+.data-img img {
+    width: 480px;
+}
+
+/* Sponsors logo */
+.sponsors {
+    text-align: center;
+}
+
+.sponsors h1 {
+    font-size: 48px;
+}
+
+.sponsors h1 span {
+    background-image: url('./assets/yellow\ undermark.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.sponsors-logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0px;
+}
+
+/* Clients section */
+.clients {
+    margin: 40px 0px;
+}
+
+.clients h1 {
+    font-size: 48px;
+    text-align: center;
+}
+
+.clients h1 span {
+    background-image: url('./assets/yellow\ undermark.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.clients-box {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.sel-client {
+    width: 400px;
+    padding: 20px;
+    box-shadow: 2px 2px 4px;
+    border-radius: 8px;
+}
+
+.sel-client i {
+    color: #00376e;
+    font-size: 80px;
+}
+
+.client {
+    width: 400px;
+    padding: 20px;
+    box-shadow: 2px 2px 4px;
+    background-color: #509bf5;
+    border-radius: 8px;
+}
+
+.client i {
+    color: white;
+    font-size: 80px;
+}
+
+.client-card {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.client-img img {
+    width: 80px;
+    border-radius: 50%;
+}
+
+/* footer section */
+.footer {
+    background-color: #00376e;
+    color: white;
+    padding: 40px;
+}
+
+.foot-head {
+    text-align: center;
+    padding: 48px;
+}
+
+.foot-head h1 {
+    font-size: 48px;
+}
+
+.foot-head button {
+    background-color: #509bf5;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-size: 16px;
+}
+
+.os-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.os-icons i {
+    font-size: 40px;
+}
+
+.foot-about {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot-about div {
+    width: 200px;
+}
+
+.logo-white {
+    display: flex;
+    gap: 6px;
+}
+
+.logo-white h3 {
+    width: 32px;
+}
+
+.logo-white img {
+    width: 32px;
+}
+
+.foot-about a {
+    text-decoration: none;
+    color: white;
+}
+
+.foot-about button {
+    background-color: #509bf5;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-size: 16px;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.foot a {
+    text-decoration: none;
+    color: white;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
 }
